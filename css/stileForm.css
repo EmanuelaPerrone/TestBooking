@@ -1,0 +1,44 @@
+/* Style the form */
+#regForm {
+  background-color: #ffffff;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+select.invalid{
+  background-color: #ffdddd;
+}
+
+checkbox.invalid{
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1.4;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #1c495a;
+}
